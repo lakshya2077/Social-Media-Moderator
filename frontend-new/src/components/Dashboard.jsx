@@ -61,7 +61,6 @@ const Dashboard = ({ token, displayName }) => {
           duration: 2000,
           position: "top-right",
         });
-        console.log(error.message);
       }
     },
     [toast]
@@ -158,7 +157,6 @@ const Dashboard = ({ token, displayName }) => {
         duration: 2000,
         position: "top-right",
       });
-      console.log(err.message);
     } finally {
       setIsSubmitting(false);
     }
