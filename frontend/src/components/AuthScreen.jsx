@@ -215,38 +215,6 @@ const AuthScreen = ({ onLoginSuccess }) => {
                     {mode === "login" ? "Create an account" : "Back to sign in"}
                   </Button>
                 </HStack>
-
-                <HStack align="center">
-                  <Divider />
-                  <Text fontSize="xs" color="text.muted" whiteSpace="nowrap">
-                    Or continue with
-                  </Text>
-                  <Divider />
-                </HStack>
-
-                <Button
-                  variant="glass"
-                  onClick={handleGoogle}
-                >
-                  Continue with Google
-                </Button>
-
-                {/* Example: Keeping GitHub button available if needed in future */}
-                <Button
-                  leftIcon={<FiGithub />}
-                  variant="subtle"
-                  onClick={() =>
-                    toast({
-                      title: "GitHub OAuth not configured",
-                      description: "This demo uses Google OAuth at /auth/google.",
-                      status: "info",
-                      duration: 1800,
-                      position: "top-right",
-                    })
-                  }
-                >
-                  Continue with GitHub
-                </Button>
               </VStack>
             </VStack>
           </Box>
