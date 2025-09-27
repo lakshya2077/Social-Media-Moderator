@@ -51,7 +51,7 @@ An **AI-powered full-stack platform** for automatically moderating user-generate
 **1️⃣ Clone the repository**
 
 ```bash
-git clone https://github.com/abhishekkushwahaa/Social-Community-Moderator.git
+git clone https://github.com/lakshya2077/Social-Media-Moderator
 cd Social-Community-Moderator
 ```
 
